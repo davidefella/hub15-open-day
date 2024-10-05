@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Imposta l'altezza minima del body per occupare l'intera altezza della finestra del browser */
+}
+
+/* Aggiungi stile per il contenuto interno */
+.container {
+  text-align: center;
+}
+
+/* Seleziona l'elemento con l'id my-button e applica uno stile di sfondo verde, testo bianco e padding di 10px 20px */
+#my-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Seleziona tutti gli elementi p che sono discendenti di un elemento div e applica un margine di 10px */
+div p {
+  margin: 10px;
+}
+
+/* Seleziona tutti gli elementi li che sono figli di un elemento ul e applica un font-weight di bold */
+ul > li {
+  font-weight: bold;
+}
+
+/* Seleziona tutti gli elementi h1 e applica il colore blu */
+h1 {
+  color: blue;
+}
+
+/* 
+Insieme di regole per definire lo stile degli elementi HTML.
+
+Seleziona tutti gli elementi con la classe intro e applica il font-size a 18px */
+.intro {
+  font-size: 28px;
+}
+
+/* Seleziona tutti gli elementi p che sono discendenti di un elemento div e applica un margine di 10px */
+div p {
+  margin: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+/* se voglio la lista centrata
+#list {
+  display: flex;
+  justify-content: center;
+} */
